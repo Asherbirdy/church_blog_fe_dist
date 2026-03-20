@@ -38014,7 +38014,7 @@ const _routes = [
       {
         name: "C-routeName",
         path: ":routeName()",
-        component: () => import('./_routeName_-BPUY8ga4.mjs')
+        component: () => import('./_routeName_-DEJK5Kmg.mjs')
       }
     ]
   },
@@ -53122,7 +53122,7 @@ _sfc_main$3.setup = (props, ctx) => {
 const __nuxt_component_0$1 = Object.assign(_sfc_main$3, { __name: "UApp" });
 const layouts = {
   dashboard: vueExports.defineAsyncComponent(() => import('./dashboard-FJkzoDBU.mjs').then((m) => m.default || m)),
-  default: vueExports.defineAsyncComponent(() => import('./default-NaKGXapk.mjs').then((m) => m.default || m)),
+  default: vueExports.defineAsyncComponent(() => import('./default-aM5DssfH.mjs').then((m) => m.default || m)),
   editor: vueExports.defineAsyncComponent(() => import('./editor-Cdm2Xe25.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;

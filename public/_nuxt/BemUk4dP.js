@@ -1,1 +1,0 @@
-import{aP as o,v as s,r as n}from"./Beq-6Bx_.js";const l=o("user",()=>{const e=n({data:{id:"",name:"",email:"",role:"",access:[]},feature:{loading:!1}}),t=s(()=>e.value.data);return{isLoading:s(()=>e.value.feature.loading),userInfo:t,setLoading:a=>e.value.feature.loading=a,setUserInfo:a=>e.value.data=a,hasAccess:a=>e.value.data.access.includes(a)}});export{l as u};

@@ -1,0 +1,1 @@
+import{g as s,c as a,a as e,o}from"./C0LTz5wP.js";const c=s({__name:"chatbot",setup(n){return(l,t)=>(o(),a("div",null,[...t[0]||(t[0]=[e("h1",{class:"font-display text-2xl font-bold text-sand-950 mb-1"}," 聊天機器人 ",-1),e("p",{class:"text-sm text-sand-500"}," 管理你的聊天機器人 ",-1)])]))}});export{c as default};
