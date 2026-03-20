@@ -1,0 +1,97 @@
+<!DOCTYPE html><html  lang="zh-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style id="nuxt-ui-colors">@layer theme {
+  :root, :host {
+  --ui-color-primary-50: var(--color-teal-50, oklch(98.4% 0.014 180.72));
+  --ui-color-primary-100: var(--color-teal-100, oklch(95.3% 0.051 180.801));
+  --ui-color-primary-200: var(--color-teal-200, oklch(91% 0.096 180.426));
+  --ui-color-primary-300: var(--color-teal-300, oklch(85.5% 0.138 181.071));
+  --ui-color-primary-400: var(--color-teal-400, oklch(77.7% 0.152 181.912));
+  --ui-color-primary-500: var(--color-teal-500, oklch(70.4% 0.14 182.503));
+  --ui-color-primary-600: var(--color-teal-600, oklch(60% 0.118 184.704));
+  --ui-color-primary-700: var(--color-teal-700, oklch(51.1% 0.096 186.391));
+  --ui-color-primary-800: var(--color-teal-800, oklch(43.7% 0.078 188.216));
+  --ui-color-primary-900: var(--color-teal-900, oklch(38.6% 0.063 188.416));
+  --ui-color-primary-950: var(--color-teal-950, oklch(27.7% 0.046 192.524));
+  --ui-color-secondary-50: var(--color-blue-50, oklch(97% 0.014 254.604));
+  --ui-color-secondary-100: var(--color-blue-100, oklch(93.2% 0.032 255.585));
+  --ui-color-secondary-200: var(--color-blue-200, oklch(88.2% 0.059 254.128));
+  --ui-color-secondary-300: var(--color-blue-300, oklch(80.9% 0.105 251.813));
+  --ui-color-secondary-400: var(--color-blue-400, oklch(70.7% 0.165 254.624));
+  --ui-color-secondary-500: var(--color-blue-500, oklch(62.3% 0.214 259.815));
+  --ui-color-secondary-600: var(--color-blue-600, oklch(54.6% 0.245 262.881));
+  --ui-color-secondary-700: var(--color-blue-700, oklch(48.8% 0.243 264.376));
+  --ui-color-secondary-800: var(--color-blue-800, oklch(42.4% 0.199 265.638));
+  --ui-color-secondary-900: var(--color-blue-900, oklch(37.9% 0.146 265.522));
+  --ui-color-secondary-950: var(--color-blue-950, oklch(28.2% 0.091 267.935));
+  --ui-color-success-50: var(--color-green-50, oklch(98.2% 0.018 155.826));
+  --ui-color-success-100: var(--color-green-100, oklch(96.2% 0.044 156.743));
+  --ui-color-success-200: var(--color-green-200, oklch(92.5% 0.084 155.995));
+  --ui-color-success-300: var(--color-green-300, oklch(87.1% 0.15 154.449));
+  --ui-color-success-400: var(--color-green-400, oklch(79.2% 0.209 151.711));
+  --ui-color-success-500: var(--color-green-500, oklch(72.3% 0.219 149.579));
+  --ui-color-success-600: var(--color-green-600, oklch(62.7% 0.194 149.214));
+  --ui-color-success-700: var(--color-green-700, oklch(52.7% 0.154 150.069));
+  --ui-color-success-800: var(--color-green-800, oklch(44.8% 0.119 151.328));
+  --ui-color-success-900: var(--color-green-900, oklch(39.3% 0.095 152.535));
+  --ui-color-success-950: var(--color-green-950, oklch(26.6% 0.065 152.934));
+  --ui-color-info-50: var(--color-blue-50, oklch(97% 0.014 254.604));
+  --ui-color-info-100: var(--color-blue-100, oklch(93.2% 0.032 255.585));
+  --ui-color-info-200: var(--color-blue-200, oklch(88.2% 0.059 254.128));
+  --ui-color-info-300: var(--color-blue-300, oklch(80.9% 0.105 251.813));
+  --ui-color-info-400: var(--color-blue-400, oklch(70.7% 0.165 254.624));
+  --ui-color-info-500: var(--color-blue-500, oklch(62.3% 0.214 259.815));
+  --ui-color-info-600: var(--color-blue-600, oklch(54.6% 0.245 262.881));
+  --ui-color-info-700: var(--color-blue-700, oklch(48.8% 0.243 264.376));
+  --ui-color-info-800: var(--color-blue-800, oklch(42.4% 0.199 265.638));
+  --ui-color-info-900: var(--color-blue-900, oklch(37.9% 0.146 265.522));
+  --ui-color-info-950: var(--color-blue-950, oklch(28.2% 0.091 267.935));
+  --ui-color-warning-50: var(--color-yellow-50, oklch(98.7% 0.026 102.212));
+  --ui-color-warning-100: var(--color-yellow-100, oklch(97.3% 0.071 103.193));
+  --ui-color-warning-200: var(--color-yellow-200, oklch(94.5% 0.129 101.54));
+  --ui-color-warning-300: var(--color-yellow-300, oklch(90.5% 0.182 98.111));
+  --ui-color-warning-400: var(--color-yellow-400, oklch(85.2% 0.199 91.936));
+  --ui-color-warning-500: var(--color-yellow-500, oklch(79.5% 0.184 86.047));
+  --ui-color-warning-600: var(--color-yellow-600, oklch(68.1% 0.162 75.834));
+  --ui-color-warning-700: var(--color-yellow-700, oklch(55.4% 0.135 66.442));
+  --ui-color-warning-800: var(--color-yellow-800, oklch(47.6% 0.114 61.907));
+  --ui-color-warning-900: var(--color-yellow-900, oklch(42.1% 0.095 57.708));
+  --ui-color-warning-950: var(--color-yellow-950, oklch(28.6% 0.066 53.813));
+  --ui-color-error-50: var(--color-red-50, oklch(97.1% 0.013 17.38));
+  --ui-color-error-100: var(--color-red-100, oklch(93.6% 0.032 17.717));
+  --ui-color-error-200: var(--color-red-200, oklch(88.5% 0.062 18.334));
+  --ui-color-error-300: var(--color-red-300, oklch(80.8% 0.114 19.571));
+  --ui-color-error-400: var(--color-red-400, oklch(70.4% 0.191 22.216));
+  --ui-color-error-500: var(--color-red-500, oklch(63.7% 0.237 25.331));
+  --ui-color-error-600: var(--color-red-600, oklch(57.7% 0.245 27.325));
+  --ui-color-error-700: var(--color-red-700, oklch(50.5% 0.213 27.518));
+  --ui-color-error-800: var(--color-red-800, oklch(44.4% 0.177 26.899));
+  --ui-color-error-900: var(--color-red-900, oklch(39.6% 0.141 25.723));
+  --ui-color-error-950: var(--color-red-950, oklch(25.8% 0.092 26.042));
+  --ui-color-neutral-50: var(--color-sand-50, );
+  --ui-color-neutral-100: var(--color-sand-100, );
+  --ui-color-neutral-200: var(--color-sand-200, );
+  --ui-color-neutral-300: var(--color-sand-300, );
+  --ui-color-neutral-400: var(--color-sand-400, );
+  --ui-color-neutral-500: var(--color-sand-500, );
+  --ui-color-neutral-600: var(--color-sand-600, );
+  --ui-color-neutral-700: var(--color-sand-700, );
+  --ui-color-neutral-800: var(--color-sand-800, );
+  --ui-color-neutral-900: var(--color-sand-900, );
+  --ui-color-neutral-950: var(--color-sand-950, );
+  }
+  :root, :host, .light {
+  --ui-primary: var(--ui-color-primary-500);
+  --ui-secondary: var(--ui-color-secondary-500);
+  --ui-success: var(--ui-color-success-500);
+  --ui-info: var(--ui-color-info-500);
+  --ui-warning: var(--ui-color-warning-500);
+  --ui-error: var(--ui-color-error-500);
+  }
+  .dark {
+  --ui-primary: var(--ui-color-primary-400);
+  --ui-secondary: var(--ui-color-secondary-400);
+  --ui-success: var(--ui-color-success-400);
+  --ui-info: var(--ui-color-info-400);
+  --ui-warning: var(--ui-color-warning-400);
+  --ui-error: var(--ui-color-error-400);
+  }
+}</style><title>小羊天地</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"><link rel="stylesheet" href="/_nuxt/entry.5qIFRtj4.css" crossorigin><style>@layer base {:where(.i-lucide\:church){display:inline-block;width:1em;height:1em;background-color:currentColor;-webkit-mask-image:var(--svg);mask-image:var(--svg);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%;--svg:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cg fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M10 9h4m-2-2v5m2 9v-3a2 2 0 0 0-4 0v3'/%3E%3Cpath d='m18 9l3.52 2.147a1 1 0 0 1 .48.854V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6.999a1 1 0 0 1 .48-.854L6 9'/%3E%3Cpath d='M6 21V7a1 1 0 0 1 .376-.782l5-3.999a1 1 0 0 1 1.249.001l5 4A1 1 0 0 1 18 7v14'/%3E%3C/g%3E%3C/svg%3E")}}</style><link rel="preload" as="fetch" crossorigin="anonymous" href="/C/test/_payload.json?42c25138-60c0-4d20-a339-8126cc9a68c6"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Beq-6Bx_.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Bk3OUvz0.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/F9ZzewH7.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/DVsM_2mE.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/BxBRABIM.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/CxMFklED.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/C3a-qU2t.js"><script type="module" src="/_nuxt/Beq-6Bx_.js" crossorigin></script><link rel="icon" href="/favicon.ico"><meta name="description" content="一個充滿愛與盼望的信仰社群，歡迎你回家。"><meta property="og:title" content="小羊天地"><meta property="og:description" content="一個充滿愛與盼望的信仰社群，歡迎你回家。"><script>"use strict";(()=>{const t=window,e=document.documentElement,c=["dark","light"],n=getStorageValue("localStorage","nuxt-color-mode")||"light";let i=n==="system"?u():n;const r=e.getAttribute("data-color-mode-forced");r&&(i=r),l(i),t["__NUXT_COLOR_MODE__"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=""+o+"",a="";e.classList?e.classList.add(s):e.className+=" "+s,a&&e.setAttribute("data-"+a,o)}function d(o){const s=""+o+"",a="";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,"g"),""),a&&e.removeAttribute("data-"+a)}function f(o){return t.matchMedia("(prefers-color-scheme"+o+")")}function u(){if(t.matchMedia&&f("").media!=="not all"){for(const o of c)if(f(":"+o).matches)return o}return"light"}})();function getStorageValue(t,e){switch(t){case"localStorage":return window.localStorage.getItem(e);case"sessionStorage":return window.sessionStorage.getItem(e);case"cookie":return getCookie(e);default:return null}}function getCookie(t){const c=("; "+window.document.cookie).split("; "+t+"=");if(c.length===2)return c.pop()?.split(";").shift()}</script></head><body><div id="__nuxt" class="isolate"><!--[--><!--[--><!--[--><!--[--><!--[--><div class="min-h-screen flex flex-col bg-sand-50"><header class="sticky top-0 z-50 bg-sand-50/80 backdrop-blur-xl border-b border-sand-200"><div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"><a href="/" class="flex items-center gap-2.5 group"><div class="w-8 h-8 bg-sand-950 rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform"><span class="iconify i-lucide:church text-white text-lg" aria-hidden="true" style=""></span></div><span class="font-display text-xl font-semibold text-sand-950 tracking-tight">小羊天地</span></a><nav class="hidden md:flex items-center gap-8"><!--[--><!--]--></nav><div class="flex items-center gap-3"><!--[--><!--[--><button type="button" data-slot="base" class="font-medium inline-flex items-center disabled:cursor-not-allowed aria-disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:opacity-75 transition-colors py-1.5 text-sm gap-1.5 active:bg-inverted/90 disabled:bg-inverted aria-disabled:bg-inverted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-inverted rounded-full bg-sand-950 text-white hover:bg-sand-800 px-5"><!--[--><!--[--><!----><!--]--><!--[--><span data-slot="label" class="truncate">線上奉獻</span><!--]--><!--[--><!----><!--]--><!--]--></button><!--]--><!--]--></div></div></header><main class="flex-1"><!--[--><div><div class="min-h-screen bg-sand-50"> /* eslint-disable-next-line vue/no-v-html */ <div class="prose prose-sand mx-auto max-w-4xl px-6 py-8"><h2>rweasrasdasda a</h2><h2>ㄋ</h2><h2>asdasdasdaasdas</h2><p>asdasd</p><p>asd</p><p>as</p><p>d</p><p>sa</p><p>das</p><p>d</p><p>s</p><p></p></div></div></div><!--]--></main><footer class="border-t border-sand-200 bg-sand-50"><div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-6 text-sm text-sand-500"><span>Facebook</span><span class="text-sand-300">|</span><span>Instagram</span><span class="text-sand-300">|</span><span>YouTube</span></div><p class="text-sm text-sand-400"> © 2026 小羊天地 </p></div></footer></div><!--]--><!--]--><!--[--><!--]--><!--v-if--><!--]--><!--[--><!--]--><!--]--><!--]--></div><div id="teleports"></div><script>window.__NUXT__={};window.__NUXT__.config={public:{ENVIRONMENT:"",API_URL:"http://localhost:1210/api/v1",USERNAME:"",PASSWORD:""},app:{baseURL:"/",buildId:"42c25138-60c0-4d20-a339-8126cc9a68c6",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/C/test/_payload.json?42c25138-60c0-4d20-a339-8126cc9a68c6">[{"state":1,"once":8,"_errors":9,"serverRendered":5,"path":11,"pinia":12,"prerenderedAt":14},["Reactive",2],{"$scolor-mode":3,"$stoasts":7},{"preference":4,"value":4,"unknown":5,"forced":6},"light",true,false,[],["Set"],["ShallowReactive",10],{"$fLzIKDNg1rRgBgU8EmD27gHUEr5qQ9Km2li5cCEp9NO0":-1},"/C/test",["Reactive",13],{},1773993404274]</script></body></html>

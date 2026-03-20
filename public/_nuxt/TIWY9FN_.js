@@ -1,0 +1,1 @@
+import{u as t}from"./CxMFklED.js";import{x as r,U as a}from"./Beq-6Bx_.js";const p={showMe:async()=>{const e=r();return await t(a.UserShowMe,{method:"GET",server:!1,lazy:!0,key:a.UserShowMe,getCachedData:s=>e.payload.data[s]||e.static.data[s]})}};export{p as u};
