@@ -1,0 +1,1 @@
+import{P as a,g as r,i as n,c as o,t as c,j as i,o as p}from"./CbudVdKS.js";import{u}from"./933vQy9a.js";import"./CNHF3yXx.js";const l={get:async()=>await u(a.DevCheckIp,{method:"GET",server:!1,lazy:!0})},g=r({__name:"ip",async setup(_){let e,t;const{data:s}=([e,t]=n(()=>l.get()),e=await e,t(),e);return(m,f)=>(p(),o("div",null,"DATA:"+c(i(s)),1))}});export{g as default};

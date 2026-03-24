@@ -36604,7 +36604,7 @@ const payloadPlugin = definePayloadPlugin(() => {
     (data) => !pinia_prodExports.shouldHydrate(data) && 1
   );
 });
-const unhead_ll9fWR_c_FikGHwiC2nSoScnySK_ZZz9jI8jo6u09a8 = /* @__PURE__ */ defineNuxtPlugin({
+const unhead_ViVlIQwMc7D4udZ9w76BNbn41B4WXhNVPCekFpCVmCU = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:head",
   enforce: "pre",
   setup(nuxtApp) {
@@ -38014,14 +38014,14 @@ const _routes = [
       {
         name: "C-routeName",
         path: ":routeName()",
-        component: () => import('./_routeName_-DEJK5Kmg.mjs')
+        component: () => import('./_routeName_-BoabWnOr.mjs')
       }
     ]
   },
   {
     name: "ip",
     path: "/ip",
-    component: () => import('./ip-C-9nECuA.mjs')
+    component: () => import('./ip-DQn5js3N.mjs')
   },
   {
     name: "admin",
@@ -38032,7 +38032,7 @@ const _routes = [
       {
         name: "admin-home",
         path: "home",
-        component: () => import('./home-CvBqLOBW.mjs')
+        component: () => import('./home-CQxDjQ8p.mjs')
       },
       {
         name: "admin-image",
@@ -38042,36 +38042,41 @@ const _routes = [
       {
         name: "admin-account",
         path: "account",
-        component: () => import('./account-CuB7cbCq.mjs')
+        component: () => import('./account-An5JS09S.mjs')
       },
       {
-        name: "admin-chatbot",
-        path: "chatbot",
-        component: () => import('./chatbot-DN8TV1DN.mjs')
+        name: "admin-chatbot-id",
+        path: "chatbot/:id()",
+        component: () => import('./_id_-B47tZJDQ.mjs')
       },
       {
         name: "admin-website-id",
         path: "website/:id()",
         meta: __nuxt_page_meta$2 || {},
-        component: () => import('./_id_--sBXixdS.mjs')
+        component: () => import('./_id_-B1PoAZ4U.mjs')
+      },
+      {
+        name: "admin-chatbot",
+        path: "chatbot",
+        component: () => import('./index-Cw8CTG-3.mjs')
       },
       {
         name: "admin-website",
         path: "website",
-        component: () => import('./index-CClkRC_h.mjs')
+        component: () => import('./index-t8muVYhB.mjs')
       }
     ]
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-QdAiylei.mjs')
+    component: () => import('./index-CdiYJX_G.mjs')
   },
   {
     name: "login",
     path: "/login",
     meta: { ...__nuxt_page_meta || {}, ...{ "middleware": ["guest"] } },
-    component: () => import('./login-DuL8FPgi.mjs')
+    component: () => import('./login-BqPA68fu.mjs')
   },
   {
     name: "tool-lifebible-study",
@@ -38199,8 +38204,8 @@ const globalMiddleware = [
   manifest_45route_45rule
 ];
 const namedMiddleware = {
-  auth: () => import('./auth-DQLXgmtI.mjs'),
-  guest: () => import('./guest-P695uPmp.mjs')
+  auth: () => import('./auth-BDo2fy0g.mjs'),
+  guest: () => import('./guest-Ch0uqjsO.mjs')
 };
 const plugin$1 = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:router",
@@ -38405,7 +38410,7 @@ const reducers = [
   ["Ref", (data) => vueExports.isRef(data) && data.value],
   ["Reactive", (data) => vueExports.isReactive(data) && vueExports.toRaw(data)]
 ];
-const revive_payload_server_nasnRRXnS5Jq1djQYKcRq09dTxnvMETz_pf9BR_bjgA = /* @__PURE__ */ defineNuxtPlugin({
+const revive_payload_server_TDaEQXIrsaXopNUp2qD7iw2Vh_C73Y1v3eFUAIhW4rM = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:revive-payload:server",
   setup() {
     for (const [reducer, fn] of reducers) {
@@ -39505,7 +39510,7 @@ function generateShades(key, value, prefix) {
 function generateColor(key, shade) {
   return `--ui-${key}: var(--ui-color-${key}-${shade});`;
 }
-const colors_naK8gnJhOEJ1Pk3v5Vkx7DOW_WHZaqnhs5jaEl2kMAg = /* @__PURE__ */ defineNuxtPlugin(() => {
+const colors_9GtX9yadbksfQrXoD4K86sIJSg77o4LMKiu4SeX8338 = /* @__PURE__ */ defineNuxtPlugin(() => {
   const appConfig2 = useAppConfig();
   useNuxtApp();
   const root = vueExports.computed(() => {
@@ -41184,7 +41189,7 @@ const _api = {
   getFetch,
   listAPIProviders
 };
-const plugin_xa_nupNeH6wSHKsAnhCpu9OA9745tpijt_Zzy6QNELw = /* @__PURE__ */ defineNuxtPlugin({
+const plugin_b3BCMx4MWIqmn70DtZnoSZ8SN5yYl3ne12A9Hg86fzc = /* @__PURE__ */ defineNuxtPlugin({
   name: "@nuxt/icon",
   setup() {
     const configs = /* @__PURE__ */ useRuntimeConfig();
@@ -41260,6 +41265,8 @@ var UserRequestUrl = /* @__PURE__ */ ((UserRequestUrl2) => {
   UserRequestUrl2["AccountDeleteUser"] = "/account/deleteUser";
   UserRequestUrl2["AccountGetAllUser"] = "/account/getAllUser";
   UserRequestUrl2["AccountEditAccess"] = "/account/editAccess";
+  UserRequestUrl2["ChatTopic"] = "/chat-topic";
+  UserRequestUrl2["ChatCard"] = "/chat-card";
   return UserRequestUrl2;
 })(UserRequestUrl || {});
 const Fetch_QkuBTWVsFvkT75X0VAWJWOBFptpb_L7wK_BUtKx_hWQ = /* @__PURE__ */ defineNuxtPlugin(() => {
@@ -41345,24 +41352,24 @@ async function getAuthHeaders() {
 const dompurify_lGUBHC_a_fBHNCPtnG9MByAo1d8YN0QnqF_3HFcQvao = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueDOMPurifyHTML);
 });
-const prerender_server_PDS22zBdJ4YPzjnCOUHGU8Pm8ej8HaneReO9G3qOlAg = /* @__PURE__ */ defineNuxtPlugin(async () => {
+const prerender_server_41KHQJ5OXWacu7tX6wSafyT8d1fTAlwWR6ufJjqEb7E = /* @__PURE__ */ defineNuxtPlugin(async () => {
   {
     return;
   }
 });
 const plugins = [
   payloadPlugin,
-  unhead_ll9fWR_c_FikGHwiC2nSoScnySK_ZZz9jI8jo6u09a8,
+  unhead_ViVlIQwMc7D4udZ9w76BNbn41B4WXhNVPCekFpCVmCU,
   plugin$1,
-  revive_payload_server_nasnRRXnS5Jq1djQYKcRq09dTxnvMETz_pf9BR_bjgA,
+  revive_payload_server_TDaEQXIrsaXopNUp2qD7iw2Vh_C73Y1v3eFUAIhW4rM,
   plugin,
   components_plugin_4kY4pyzJIYX99vmMAAIorFf3CnAaptHitJgf7JxiED8,
-  colors_naK8gnJhOEJ1Pk3v5Vkx7DOW_WHZaqnhs5jaEl2kMAg,
+  colors_9GtX9yadbksfQrXoD4K86sIJSg77o4LMKiu4SeX8338,
   plugin_server_rToqu_XdwNE1ZMNngUlyreHr6vL1SRlXncsS1ysff0I,
-  plugin_xa_nupNeH6wSHKsAnhCpu9OA9745tpijt_Zzy6QNELw,
+  plugin_b3BCMx4MWIqmn70DtZnoSZ8SN5yYl3ne12A9Hg86fzc,
   Fetch_QkuBTWVsFvkT75X0VAWJWOBFptpb_L7wK_BUtKx_hWQ,
   dompurify_lGUBHC_a_fBHNCPtnG9MByAo1d8YN0QnqF_3HFcQvao,
-  prerender_server_PDS22zBdJ4YPzjnCOUHGU8Pm8ej8HaneReO9G3qOlAg
+  prerender_server_41KHQJ5OXWacu7tX6wSafyT8d1fTAlwWR6ufJjqEb7E
 ];
 var serverRenderer_cjs_prod = {};
 var compilerSsr_cjs = {};
@@ -50301,7 +50308,7 @@ const _sfc_main$d = {
 const _sfc_setup$d = _sfc_main$d.setup;
 _sfc_main$d.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Icon.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Icon.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
 const ImageComponent = "img";
@@ -50469,7 +50476,7 @@ const _sfc_main$c = /* @__PURE__ */ Object.assign({ inheritAttrs: false }, {
 const _sfc_setup$c = _sfc_main$c.setup;
 _sfc_main$c.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Chip.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Chip.vue");
   return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
 };
 const theme$5 = {
@@ -50660,7 +50667,7 @@ const _sfc_main$b = /* @__PURE__ */ Object.assign({ inheritAttrs: false }, {
 const _sfc_setup$b = _sfc_main$b.setup;
 _sfc_main$b.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Avatar.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Avatar.vue");
   return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
 };
 function useComponentIcons(componentProps) {
@@ -50885,7 +50892,7 @@ const _sfc_main$a = {
 const _sfc_setup$a = _sfc_main$a.setup;
 _sfc_main$a.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/LinkBase.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/LinkBase.vue");
   return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
 const theme$4 = {
@@ -51085,7 +51092,7 @@ const _sfc_main$9 = /* @__PURE__ */ Object.assign({ inheritAttrs: false }, {
 const _sfc_setup$9 = _sfc_main$9.setup;
 _sfc_main$9.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Link.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Link.vue");
   return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
 const theme$3 = {
@@ -51684,7 +51691,7 @@ const _sfc_main$8 = {
 const _sfc_setup$8 = _sfc_main$8.setup;
 _sfc_main$8.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Button.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Button.vue");
   return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
 const theme$2 = {
@@ -52160,7 +52167,7 @@ const _sfc_main$7 = {
 const _sfc_setup$7 = _sfc_main$7.setup;
 _sfc_main$7.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Progress.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Progress.vue");
   return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
 };
 const theme$1 = {
@@ -52636,7 +52643,7 @@ const _sfc_main$6 = {
 const _sfc_setup$6 = _sfc_main$6.setup;
 _sfc_main$6.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Toast.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Toast.vue");
   return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
 const theme = {
@@ -52903,7 +52910,7 @@ const _sfc_main$5 = /* @__PURE__ */ Object.assign(__default__$1, {
 const _sfc_setup$5 = _sfc_main$5.setup;
 _sfc_main$5.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/Toaster.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/Toaster.vue");
   return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
 const UToaster = Object.assign(_sfc_main$5, { __name: "UToaster" });
@@ -53023,7 +53030,7 @@ const _sfc_main$4 = {
 const _sfc_setup$4 = _sfc_main$4.setup;
 _sfc_main$4.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/OverlayProvider.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/OverlayProvider.vue");
   return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
 const __default__ = {
@@ -53116,13 +53123,13 @@ const _sfc_main$3 = /* @__PURE__ */ Object.assign(__default__, {
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_9c21a5088b374970b03e7fff8c1a5f42/node_modules/@nuxt/ui/dist/runtime/components/App.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/@nuxt+ui@4.5.1_@tiptap+extensions@3.20.1_@tiptap+core@3.20.1_@tiptap+pm@3.20.1__@tiptap_4989ab31cc14b2819489e0c69695d883/node_modules/@nuxt/ui/dist/runtime/components/App.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
 const __nuxt_component_0$1 = Object.assign(_sfc_main$3, { __name: "UApp" });
 const layouts = {
-  dashboard: vueExports.defineAsyncComponent(() => import('./dashboard-FJkzoDBU.mjs').then((m) => m.default || m)),
-  default: vueExports.defineAsyncComponent(() => import('./default-aM5DssfH.mjs').then((m) => m.default || m)),
+  dashboard: vueExports.defineAsyncComponent(() => import('./dashboard-DZaH8Pry.mjs').then((m) => m.default || m)),
+  default: vueExports.defineAsyncComponent(() => import('./default-BxV4gFB3.mjs').then((m) => m.default || m)),
   editor: vueExports.defineAsyncComponent(() => import('./editor-Cdm2Xe25.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
@@ -53399,8 +53406,8 @@ const _sfc_main$1 = {
     const statusText = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = vueExports.defineAsyncComponent(() => import('./error-404-DzLWJbzk.mjs'));
-    const _Error = vueExports.defineAsyncComponent(() => import('./error-500-Diawe7lv.mjs'));
+    const _Error404 = vueExports.defineAsyncComponent(() => import('./error-404-DBou-9W4.mjs'));
+    const _Error = vueExports.defineAsyncComponent(() => import('./error-500-BiQgd2-f.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(serverRenderer_cjs_prodExports.ssrRenderComponent(vueExports.unref(ErrorTemplate), vueExports.mergeProps({ status: vueExports.unref(status), statusText: vueExports.unref(statusText), statusCode: vueExports.unref(status), statusMessage: vueExports.unref(statusText), description: vueExports.unref(description), stack: vueExports.unref(stack) }, _attrs), null, _parent));
@@ -53410,7 +53417,7 @@ const _sfc_main$1 = {
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/nuxt@4.3.1_@parcel+watcher@2.5.6_@types+node@22.4.2_@vue+compiler-sfc@3.5.29_cac@6.7.14_97dcabdea02d53f7a18c0deb623a75c0/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/nuxt@4.3.1_@parcel+watcher@2.5.6_@types+node@24.12.0_@vue+compiler-sfc@3.5.29_cac@6.7.1_823b526dd96e785bf6d84a1133388f5d/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
 const _sfc_main = {
@@ -53458,7 +53465,7 @@ const _sfc_main = {
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/nuxt@4.3.1_@parcel+watcher@2.5.6_@types+node@22.4.2_@vue+compiler-sfc@3.5.29_cac@6.7.14_97dcabdea02d53f7a18c0deb623a75c0/node_modules/nuxt/dist/app/components/nuxt-root.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../node_modules/.pnpm/nuxt@4.3.1_@parcel+watcher@2.5.6_@types+node@24.12.0_@vue+compiler-sfc@3.5.29_cac@6.7.1_823b526dd96e785bf6d84a1133388f5d/node_modules/nuxt/dist/app/components/nuxt-root.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
 let entry;
