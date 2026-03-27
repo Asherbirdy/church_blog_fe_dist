@@ -1,1 +1,0 @@
-var a=(I=>(I.HOME="/",I.LOGIN="/login",I.REGISTER="/register",I.LIFE_BIBLE_STUDY="/tool/lifebible-study",I))(a||{}),n=(I=>(I.ADMIN_CHATBOT="/admin/chatbot",I.ADMIN_WEBSITE="/admin/website",I.ADMIN_IMAGE="/admin/image",I.ADMIN_HOME="/admin/home",I.ADMIN_ACCOUNT="/admin/account",I))(n||{});export{a as P,n as a};
